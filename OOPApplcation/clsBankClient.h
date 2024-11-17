@@ -309,5 +309,4 @@ static bool IsClientExist(string AccountNumber)
 	return (!Client1.IsEmpty());
 }
 
-};
 
