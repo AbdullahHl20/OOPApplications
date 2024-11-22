@@ -131,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clsBankClient.h" />
+    <ClInclude Include="clsDate.h" />
+    <ClInclude Include="clsInputValidate.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="clsPerson.h" />

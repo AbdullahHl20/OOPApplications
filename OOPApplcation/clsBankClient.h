@@ -286,8 +286,6 @@ public:
 
 		}
 
-
-
 	}
 
 	static bool IsClientExist(string AccountNumber)

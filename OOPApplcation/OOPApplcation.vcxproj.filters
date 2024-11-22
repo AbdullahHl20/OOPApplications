@@ -23,6 +23,12 @@
     <ClInclude Include="clsBankClient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clsPerson.h">
