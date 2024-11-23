@@ -23,16 +23,16 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(29,56): warning C42
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(378,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(99,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(103,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\OOPApplcation.cpp(26,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Trraining c++\OOPApplcation\OOPApplcation\OOPApplcation.cpp(247,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\OOPApplcation.cpp(29,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\OOPApplcation.cpp(250,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(323,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe
