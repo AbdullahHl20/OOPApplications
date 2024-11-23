@@ -18,6 +18,7 @@ private:
 	string _AccountNumber;
 	string _PinCode;
 	float _AccountBalance;
+	bool _MarkedForDelete = false;
 
 	static clsBankClient _ConvertLinetoClientObject(string Line, string Seperator = "#//#")
 	{
@@ -77,7 +78,6 @@ private:
 
 	static void _SaveCleintsDataToFile(vector <clsBankClient> vClients)
 	{
-
 		fstream MyFile;
 		MyFile.open("Clients.txt", ios::out);//overwrite
 
@@ -88,8 +88,13 @@ private:
 
 			for (clsBankClient C : vClients)
 			{
-				DataLine = _ConverClientObjectToLine(C);
-				MyFile << DataLine << endl;
+				if (C.MarkedForDeleted() == false)
+				{
+					//we only write records that are not marked for delete.  
+					DataLine = _ConverClientObjectToLine(C);
+					MyFile << DataLine << endl;
+
+				}
 
 			}
 
@@ -167,6 +172,11 @@ public:
 		return (_Mode == enMode::EmptyMode);
 	}
 
+	bool MarkedForDeleted()
+	{
+		return _MarkedForDelete;
+	}
+
 
 	string AccountNumber()
 	{
@@ -241,9 +251,6 @@ public:
 
 	static clsBankClient Find(string AccountNumber, string PinCode)
 	{
-
-
-
 		fstream MyFile;
 		MyFile.open("Clients.txt", ios::in);//read Mode
 
@@ -312,6 +319,29 @@ public:
 
 
 		}
+
+	}
+
+	bool Delete()
+	{
+		vector <clsBankClient> _vClients;
+		_vClients = _LoadClientsDataFromFile();
+
+		for (clsBankClient& C : _vClients)
+		{
+			if (C.AccountNumber() == _AccountNumber)
+			{
+				C._MarkedForDelete = true;
+				break;
+			}
+
+		}
+
+		_SaveCleintsDataToFile(_vClients);
+
+		*this = _GetEmptyClientObject();
+
+		return true;
 
 	}
 

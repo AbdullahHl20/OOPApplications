@@ -17,7 +17,7 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsString.h(325,24): warning C4267:
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsString.h(373,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(28,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(29,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(99,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
@@ -27,5 +27,5 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(103,26): warning
   (compiling source file 'OOPApplcation.cpp')
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\OOPApplcation.cpp(24,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(289,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(323,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe
