@@ -133,6 +133,7 @@
     <ClInclude Include="clsBankClient.h" />
     <ClInclude Include="clsDate.h" />
     <ClInclude Include="clsInputValidate.h" />
+    <ClInclude Include="clsUtil.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="clsPerson.h" />
