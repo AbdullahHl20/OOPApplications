@@ -49,7 +49,7 @@ public:
         char Answer = 'n';
         cin >> Answer;
 
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper( Answer) == 'Y')
         {
 
 
