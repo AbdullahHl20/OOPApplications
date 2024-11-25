@@ -33,5 +33,4 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsUpdateClientScreen.h(47,66): war
   (compiling source file 'OOPApplcation.cpp')
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(328,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
-  LINK : D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe not found or not built by the last incremental link; performing full link
   OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe
