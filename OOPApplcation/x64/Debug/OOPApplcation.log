@@ -23,7 +23,13 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(115,16): warning
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(27,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(28,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'OOPApplcation.cpp')
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(357,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'OOPApplcation.cpp')
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(370,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsAddNewClientScreen.h(30,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
@@ -32,5 +38,11 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsAddNewClientScreen.h(30,66): war
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsUpdateClientScreen.h(47,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(328,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsUtil.h(64,5): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'OOPApplcation.cpp')
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsTotalBalancesScreen.h(57,82): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'OOPApplcation.cpp')
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(312,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
   OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe

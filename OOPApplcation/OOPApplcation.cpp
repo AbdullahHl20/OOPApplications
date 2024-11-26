@@ -9,6 +9,8 @@
 int main()
 
 {
+
+	cout << '\a';
 	clsMainScreen::ShowMainMenue();
 	system("pause>0");
 	return 0;
