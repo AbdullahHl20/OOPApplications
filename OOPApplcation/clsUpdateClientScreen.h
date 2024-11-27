@@ -51,6 +51,10 @@ public:
 
     static void ShowUpdateClientScreen()
     {
+        if (!CheckAccessRights(clsUser::enPermissions::pUpdateClients))
+        {
+            return;// this will exit the function and it will not continue
+        }
 
         _DrawScreenHeader("\tUpdate Client Screen");
 
@@ -74,7 +78,7 @@ public:
         char Answer = 'n';
         cin >> Answer;
 
-        if (toupper(Answer) == 'Y')
+        if (Answer == 'y' || Answer == 'Y')
         {
 
             cout << "\n\nUpdate Client Info:";

@@ -28,6 +28,10 @@ private:
 public:
     static void ShowDeleteClientScreen()
     {
+        if (!CheckAccessRights(clsUser::enPermissions::pDeleteClient))
+        {
+            return;// this will exit the function and it will not continue
+        }
 
         _DrawScreenHeader("\tDelete Client Screen");
 
@@ -49,7 +53,7 @@ public:
         char Answer = 'n';
         cin >> Answer;
 
-        if (toupper( Answer) == 'Y')
+        if (Answer == 'y' || Answer == 'Y')
         {
 
 
