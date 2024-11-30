@@ -26,6 +26,12 @@ public:
     static void ShowLoginRegisterScreen()
     {
 
+        if (!CheckAccessRights(clsUser::enPermissions::eShowLogRegister))
+        {
+            return;// this will exit the function and it will not continue
+        }
+
+
         vector <clsUser::stLoginRegisterRecord> vLoginRegisterRecord = clsUser::GetLoginRegisterList();
 
         string Title = "\tLogin Register List Screen";
@@ -47,7 +53,7 @@ public:
             cout << "\t\t\t\tNo Logins Available In the System!";
         else
 
-            for (clsUser::stLoginRegisterRecord Record : vLoginRegisterRecord)
+            for (clsUser::stLoginRegisterRecord& Record : vLoginRegisterRecord)
             {
 
                 PrintLoginRegisterRecordLine(Record);

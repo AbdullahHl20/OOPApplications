@@ -17,6 +17,11 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsString.h(325,24): warning C4267:
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsString.h(373,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(186,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(23,12):
+  see declaration of 'clsUser::stLoginRegisterRecord'
+  
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
@@ -44,5 +49,5 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsUtil.h(64,5): warning C4102: 'de
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsTotalBalancesScreen.h(57,82): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(319,1): warning C4715: 'clsUser::Save': not all control paths return a value
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(344,1): warning C4715: 'clsUser::Save': not all control paths return a value
   OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe

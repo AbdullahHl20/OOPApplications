@@ -57,7 +57,7 @@ private:
 
         cout << "\nDo you want to give full access? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             return -1;
         }
@@ -66,7 +66,7 @@ private:
 
         cout << "\nShow Client List? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
 
 
@@ -75,44 +75,49 @@ private:
 
         cout << "\nAdd New Client? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pAddNewClient;
         }
 
         cout << "\nDelete Client? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pDeleteClient;
         }
 
         cout << "\nUpdate Client? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pUpdateClients;
         }
 
         cout << "\nFind Client? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pFindClient;
         }
 
         cout << "\nTransactions? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pTranactions;
         }
 
         cout << "\nManage Users? y/n? ";
         cin >> Answer;
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
             Permissions += clsUser::enPermissions::pManageUsers;
+        }
+
+        if (toupper(Answer) == 'Y')
+        {
+            Permissions += clsUser::enPermissions::eShowLogRegister;
         }
 
         return Permissions;
@@ -146,7 +151,7 @@ public:
         char Answer = 'n';
         cin >> Answer;
 
-        if (Answer == 'y' || Answer == 'Y')
+        if (toupper(Answer) == 'Y')
         {
 
             cout << "\n\nUpdate User Info:";
