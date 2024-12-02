@@ -26,7 +26,7 @@ public:
     static void ShowLoginRegisterScreen()
     {
 
-        if (!CheckAccessRights(clsUser::enPermissions::eShowLogRegister))
+        if (!CheckAccessRights(clsUser::enPermissions::pShowLogInRegister))
         {
             return;// this will exit the function and it will not continue
         }

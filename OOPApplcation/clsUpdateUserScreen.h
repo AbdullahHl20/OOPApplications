@@ -117,7 +117,7 @@ private:
 
         if (toupper(Answer) == 'Y')
         {
-            Permissions += clsUser::enPermissions::eShowLogRegister;
+            Permissions += clsUser::enPermissions::pShowLogInRegister;
         }
 
         return Permissions;
