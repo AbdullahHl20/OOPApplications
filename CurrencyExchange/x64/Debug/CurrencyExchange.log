@@ -1,0 +1,24 @@
+﻿  CurrencyExchange.cpp
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(40,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(45,23): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(57,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(194,20): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(325,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsString.h(373,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CurrencyExchange.cpp')
+  
+D:\Trraining c++\OOPApplcation\CurrencyExchange\CurrencyExchange.cpp(44,26): warning C4305: 'argument': truncation from 'double' to 'float'
+  CurrencyExchange.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\CurrencyExchange.exe
