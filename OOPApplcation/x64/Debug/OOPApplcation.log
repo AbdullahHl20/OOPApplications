@@ -25,11 +25,35 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(197,12): warning C4240: n
   D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(26,12):
   see declaration of 'clsUser::stLoginRegisterRecord'
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(75,26): error C2672: 'clsInputValidate::IsNumberBetween': no matching overloaded function found
   (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(16,16):
+  could be 'bool clsInputValidate::IsNumberBetween(T,T,T)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(75,26):
+  	'bool clsInputValidate::IsNumberBetween(T,T,T)': template parameter 'T' is ambiguous
+  		D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(75,26):
+  		could be 'short'
+  		D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(75,26):
+  		or       'int'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(75,26):
+  	'bool clsInputValidate::IsNumberBetween(T,T,T)': could not deduce template argument for 'T' from 'short'
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(71,15):
+  This diagnostic occurred in the compiler generated function 'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)'
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(110,26): error C2672: 'clsInputValidate::IsNumberBetween': no matching overloaded function found
   (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(16,16):
+  could be 'bool clsInputValidate::IsNumberBetween(T,T,T)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(110,26):
+  	'bool clsInputValidate::IsNumberBetween(T,T,T)': template parameter 'T' is ambiguous
+  		D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(110,26):
+  		could be 'double'
+  		D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(110,26):
+  		or       'float'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(110,26):
+  	'bool clsInputValidate::IsNumberBetween(T,T,T)': could not deduce template argument for 'T' from 'double'
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(106,16):
+  This diagnostic occurred in the compiler generated function 'double clsInputValidate::ReadFloatNumberBetween(double,double,std::string)'
   
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(206,12): warning C4240: nonstandard extension used: access to 'clsBankClient::stTrnsferLogRecord' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'OOPApplcation.cpp')
@@ -69,6 +93,20 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsTransferScreen.h(42,51): warning
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsTransferScreen.h(47,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsTransactionsScreen.h(29,42): error C2672: 'clsInputValidate::ReadShortNumberBetween': no matching overloaded function found
+  (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(71,15):
+  could be 'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsTransactionsScreen.h(29,42):
+  	'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)': could not deduce template argument for 'T'
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsManageUsersScreen.h(26,42): error C2672: 'clsInputValidate::ReadShortNumberBetween': no matching overloaded function found
+  (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(71,15):
+  could be 'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsManageUsersScreen.h(26,42):
+  	'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)': could not deduce template argument for 'T'
+  
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsCurrency.h(27,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
@@ -78,7 +116,17 @@ D:\Trraining c++\OOPApplcation\OOPApplcation\clsUpdateCurrencyRateScreen.h(17,52
 D:\Trraining c++\OOPApplcation\OOPApplcation\clsCurrencyCalculatorScreen.h(17,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'OOPApplcation.cpp')
   
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(376,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsBankClient.h(438,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
-D:\Trraining c++\OOPApplcation\OOPApplcation\clsUser.h(355,1): warning C4715: 'clsUser::Save': not all control paths return a value
-  OOPApplcation.vcxproj -> D:\Trraining c++\OOPApplcation\x64\Debug\OOPApplcation.exe
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsCurrencyExchangeMainScreen.h(25,42): error C2672: 'clsInputValidate::ReadShortNumberBetween': no matching overloaded function found
+  (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(71,15):
+  could be 'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsCurrencyExchangeMainScreen.h(25,42):
+  	'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)': could not deduce template argument for 'T'
+  
+D:\Trraining c++\OOPApplcation\OOPApplcation\clsMainScreen.h(33,42): error C2672: 'clsInputValidate::ReadShortNumberBetween': no matching overloaded function found
+  (compiling source file 'OOPApplcation.cpp')
+  D:\Trraining c++\OOPApplcation\OOPApplcation\clsInputValidate.h(71,15):
+  could be 'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)'
+  	D:\Trraining c++\OOPApplcation\OOPApplcation\clsMainScreen.h(33,42):
+  	'short clsInputValidate::ReadShortNumberBetween(short,short,std::string)': could not deduce template argument for 'T'
+  

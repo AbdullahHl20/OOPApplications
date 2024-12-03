@@ -307,6 +307,12 @@ public:
         return Text;
 
     }
-
+    template <typename T> T MyMax(T number1, T number2)
+    {
+        if (number1 > number2)
+            return number1;
+        else
+            return number2;
+    }
 
 };

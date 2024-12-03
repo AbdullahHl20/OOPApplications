@@ -7,26 +7,19 @@
 #include "clsString.h"
 #include "clsDate.h"
 
+
 class clsInputValidate
 {
 
 public:
-
-	static bool IsNumberBetween(int Number, int From, int To)
+	template <typename T>
+	  static bool IsNumberBetween(T Number, T From, T To)
 	{
 		if (Number >= From && Number <= To)
 			return true;
 		else
 			return false;
 
-	}
-
-	static bool IsNumberBetween(double Number, double From, double To)
-	{
-		if (Number >= From && Number <= To)
-			return true;
-		else
-			return false;
 	}
 
 	static bool IsDateBetween(clsDate Date, clsDate From, clsDate To)
@@ -74,12 +67,12 @@ public:
 		}
 		return Number;
 	}
-
+	
 	static short ReadShortNumberBetween(short From, short To, string ErrorMessage = "Number is not within range, Enter again:\n")
 	{
 		int Number = ReadShortNumber();
 
-		while (!IsNumberBetween(Number, From, To))
+		while (!IsNumberBetween<int>(Number, From, To))
 		{
 			cout << ErrorMessage;
 			Number = ReadShortNumber();
@@ -109,12 +102,12 @@ public:
 		}
 		return Number;
 	}
-
+	template <typename T>
 	static double ReadFloatNumberBetween(double From, double To, string ErrorMessage = "Number is not within range, Enter again:\n")
 	{
 		float Number = ReadFloatNumber();
 
-		while (!IsNumberBetween(Number, From, To)) {
+		while (!IsNumberBetween<float>(Number, From, To)) {
 			cout << ErrorMessage;
 			Number = ReadDblNumber();
 		}
